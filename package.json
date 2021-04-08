@@ -1,0 +1,29 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend for app todo-list MERN",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miltondw/app-mern.git"
+  },
+  "keywords": [
+    "mongodb",
+    "express",
+    "nodejs"
+  ],
+  "author": "milton estrada",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miltondw/app-mern/issues"
+  },
+  "homepage": "https://github.com/miltondw/app-mern#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.3"
+  }
+}
